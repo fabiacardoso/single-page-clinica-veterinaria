@@ -31,5 +31,5 @@ Foram aplicados conceitos de UI e UX durante a criação do site.
 
 ## **O Site**
 
-<img src="/img/o-site.PNG">
+<img src="/img/o-site.png">
 
