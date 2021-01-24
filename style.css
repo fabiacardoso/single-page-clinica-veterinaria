@@ -1,0 +1,216 @@
+/* GLOBAL */
+:root {
+  --amarelo: #ffd864;
+  --azul: #3694a7;
+  --vermelho: #ff605a;
+  --azul-claro: #1ed5da;
+  --cinza: #313131;
+  --branco: #ffffff;
+  --preto: #000000;
+}
+
+body {
+  font-family: "gomme-sans", sans-serif;
+}
+
+.btn {
+  background: var(--vermelho);
+  padding: 12px 30px;
+  color: var(--branco);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0.4em;
+  line-height: 30px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: var(--cinza);
+  background: var(--amarelo);
+}
+
+.subtitulo {
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+  color: var(--preto);
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.p-subtitulo {
+  font-size: 22px;
+  font-weight: light;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+/* FIM GLOBAL */
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--amarelo);
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header-menu ul li a {
+  color: var(--preto);
+  font-weight: regular;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.header-menu ul li.active a {
+  color: var(--azul);
+  margin-top: 10%;
+  border-bottom: 5px solid var(--azul);
+}
+
+.menu-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background: var(--azul);
+  transition: width 0.3s;
+  margin-top: 10%;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+  margin-top: 10%;
+  background: var(--azul);
+}
+
+/* FIM HEADER */
+
+/* INTRODUÇÃO */
+
+.introducao {
+  width: 100%;
+  height: 780px;
+  background: var(--azul);
+  margin-top: 92px;
+}
+
+.introducao h1 {
+  font-size: 70px;
+  color: var(--branco);
+  font-weight: 800;
+  line-height: 65px;
+  text-align: left;
+  padding-top: 200px;
+  margin-bottom: 10%;
+}
+
+.introducao p {
+  font-size: 25px;
+  color: var(--branco);
+  font-weight: regular;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 30px;
+  max-width: 400px;
+  margin-bottom: 7%;
+}
+
+.introducao img {
+  height: 750px;
+  padding-top: 30px;
+}
+
+/* FIM INTRODUÇÃO */
+
+/* SOBRE */
+
+.sobre {
+  height: 500px;
+  margin-top: 150px;
+}
+
+.sobre h2 {
+  font-size: 60px;
+  color: var(--azul);
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.sobre p {
+  font-size: 20px;
+  color: var(--cinza);
+  font-weight: regular;
+  line-height: 30px;
+  text-align: left;
+  max-width: 400px;
+  margin-bottom: 10%;
+}
+
+/* FIM SOBRE */
+
+/* SERVIÇOS */
+
+.servicos {
+  height: 1500px;
+  padding: 60px 0;
+  background-color: var(--azul-claro);
+  text-align: center;
+}
+
+.servicos-lista li {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 300px;
+  margin-top: 7%;
+}
+
+.btn-servico{
+  padding-top: 70px;
+  text-align: center;
+  clear: both;
+}
+
+.btn-servico p{
+  font-size: 35;
+    font-weight: 600;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/* FIM SERVIÇOS */
+
+/* CONTATO */
+
+/* FIM CONTATO */
+
+/* FOOTER */

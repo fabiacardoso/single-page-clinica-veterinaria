@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/jyn7qbo.css">
+  <title>Gato dá Sorte</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/logo-gato-da-sorte.svg" alt="Logo Gato dá Sorte">
+      </a>
+      <nav class="grid-12 header-menu">
+        <ul>
+          <li class="active"><a href="#home-section" class="menu-link">Home</a></li>
+          <li><a href="#sobre-section" class="menu-link">Sobre</a></li>
+          <li><a href="#servico-section" class="menu-link">Serviços</a></li>
+          <li><a href="#contato-section" class="menu-link">Contato</a></li>
+        </ul>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+          $(document).on('click', 'ul li', function () {
+            $(this).addClass('active').siblings().removeClass('active')
+          })
+        </script>
+
+      </nav>
+    </div>
+  </header>
+
+  <!--INTRODUÇÃO-->
+  <section class="introducao" id="home-section">
+    <div class="container">
+      <div class="grid-10">
+        <h1>Clínica Exclusiva <br>para Gatos</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+        <a href="#sobre-section" class="btn">Sobre nós</a>
+      </div>
+      <div class="grid-6"><img src="img/img-gato-banner.png" alt="Imagem de um gato"></div>
+    </div>
+  </section>
+
+  <!--FIM DA INTRODUÇÃO-->
+
+  <!-- SEÇÃO SOBRE-->
+
+  <section class="sobre container" id="sobre-section">
+    <div class="grid-9">
+      <img src="img/img-gato-sobre.png" alt="Imagem de um gato preto">
+    </div>
+    <div class="grid-7">
+      <h2>Especialistas <br>em Felinos</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+      <a href="#servico-section" class="btn">Nossos Serviços</a>
+    </div>
+
+  </section>
+
+  <!-- FIM DA SEÇÃO SOBRE-->
+
+
+  <!-- SERVIÇOS -->
+
+  <section class="servicos" id="servico-section">
+    <div class="container">
+      <div class="servico-titulo">
+        <h2 class="subtitulo">Serviços</h2>
+        <p class="p-subtitulo">Cuidar bem do seu gatinho é nossa especialidade!</p>
+      </div>
+
+
+      <ul class="servicos-lista">
+        <li class="grid-1-3">
+          <img src="img/img-servico-01.png" alt="Clínica">
+          <h3>Clínica</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+        </li>
+        <li class="grid-1-3">
+          <img src="img/img-servico-02.png" alt="Clínica">
+          <h3>Vacinação</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+        </li>
+        <li class="grid-1-3">
+          <img src="img/img-servico-03.png" alt="Clínica">
+          <h3>Internação</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+        </li>
+
+        <li class="grid-1-3">
+          <img src="img/img-servico-04.png" alt="Clínica">
+          <h3>Cirurgias</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+        </li>
+        <li class="grid-1-3">
+          <img src="img/img-servico-05.png" alt="Clínica">
+          <h3>Urgência</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+        </li>
+        <li class="grid-1-3">
+          <img src="img/img-servico-06.png" alt="Clínica">
+          <h3>Emergência</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+        </li>
+      </ul>
+
+      <div class="btn-servico">
+        <p>Conheça nossa equipe de profissionais!</p>
+        <a href="#contato-section" class="btn">Saber mais...</a>
+      </div>
+
+    </div>
+  </section>
+  <!-- FIM DA SEÇÃO SERVIÇOS-->
+
+</body>
+
+</html>
