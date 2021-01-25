@@ -1,0 +1,301 @@
+/* GLOBAL */
+:root {
+  --amarelo: #ffd864;
+  --azul: #3694a7;
+  --vermelho: #ff605a;
+  --azul-claro: #1ed5da;
+  --cinza: #313131;
+  --branco: #ffffff;
+  --preto: #000000;
+}
+
+body {
+  font-family: "gomme-sans", sans-serif;
+}
+
+.btn {
+  background: var(--vermelho);
+  padding: 12px 30px;
+  color: var(--branco);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0.4em;
+  line-height: 30px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: var(--cinza);
+  background: var(--amarelo);
+}
+
+.subtitulo {
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+  color: var(--preto);
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.p-subtitulo {
+  font-size: 22px;
+  font-weight: light;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+/* FIM GLOBAL */
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--amarelo);
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header-menu ul li a {
+  color: var(--preto);
+  font-weight: regular;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.menu-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background: var(--azul);
+  transition: width 0.3s;
+  margin-top: 10%;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+  margin-top: 10%;
+  background: var(--azul);
+}
+
+/* FIM HEADER */
+
+/* INTRODUÇÃO */
+
+.introducao {
+  width: 100%;
+  height: 780px;
+  background: var(--azul);
+  margin-top: 91px;
+}
+
+.introducao h1 {
+  font-size: 70px;
+  color: var(--branco);
+  font-weight: 800;
+  line-height: 65px;
+  text-align: left;
+  padding-top: 200px;
+  margin-bottom: 10%;
+}
+
+.introducao p {
+  font-size: 25px;
+  color: var(--branco);
+  font-weight: regular;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 30px;
+  max-width: 400px;
+  margin-bottom: 7%;
+}
+
+.introducao img {
+  height: 750px;
+  padding-top: 30px;
+}
+
+/* FIM INTRODUÇÃO */
+
+/* SOBRE */
+
+.sobre {
+  height: 750px;
+  margin-top: 150px;
+}
+
+.sobre h2 {
+  font-size: 60px;
+  color: var(--azul);
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.sobre p {
+  font-size: 20px;
+  color: var(--cinza);
+  font-weight: regular;
+  line-height: 30px;
+  text-align: left;
+  max-width: 400px;
+  margin-bottom: 10%;
+}
+
+/* FIM SOBRE */
+
+/* SERVIÇOS */
+
+.servicos {
+  height: 1500px;
+  padding: 60px 0;
+  background-color: var(--azul-claro);
+  text-align: center;
+}
+
+.servicos-lista li {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 300px;
+  margin-top: 7%;
+}
+
+.btn-servico{
+  padding-top: 70px;
+  text-align: center;
+  clear: both;
+}
+
+.btn-servico p{
+  font-size: 35;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/* FIM SERVIÇOS */
+
+/* VETERINÁRIOS */
+
+.veterinarios{
+  height: 900px;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.subtitulo-vet{
+font-size: 22px;
+font-weight: light;
+text-align: center;
+max-width: 720px;
+margin: 0 auto;
+margin-top: 2%;
+margin-bottom: 5rem;
+}
+
+.profissao{
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+
+/* FIM VETERINÁRIOS */
+
+/* CONTATO */
+.contato{
+  height: 800px;
+  padding: 60px 0;
+  background: var(--azul-claro);
+}
+
+.contato h2{
+  text-align: left;
+}
+
+.contato p{
+  text-align: left;
+  font-size: 20;
+  font-weight: regular;
+  
+}
+/* FIM CONTATO */
+
+/* FOOTER */
+.footer{
+    height: 700px;
+    padding: 60px 0;
+    background: var(--cinza);
+    padding-top: 10rem;
+  }
+
+.menu-footer ul{
+  border: var(--branco) solid 2px;
+  padding: 20px 30px;
+  height: 280px;
+  width: 250px;
+  align-items: center;
+  line-height: 2rem;
+  
+}
+
+.menu-footer ul li a{
+font-size: 20px;
+color: var(--branco);
+text-align: left;
+font-weight: light;
+letter-spacing: 5px;
+}
+
+.menu-footer ul h4{
+  font-size: 20px;
+  color: var(--vermelho);
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.logo-footer{
+  text-align: right;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 1rem;
+  color: var(--branco);
+  font-weight: lighter;
+  margin-top: 200px;
+  padding-top: 1rem;
+  border-top: var(--branco) solid 2px;
+}
+
+
