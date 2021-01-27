@@ -165,22 +165,36 @@
       <p class="p-contato">Você pode nos contatar através do nosso WhatsApp, por nossas redes sociais ou preenchendo o formulário. Mas, caso prefira pode ligar ou vim até nós, teremos o maior prazer em te atender!</p>
 
       <div class="grid-9">
-        <form action=""></form>
-        <div><a href="#servico-section" class="btn">Enviar</a></div>
+        <form id="form-contato" class="form-contato">
+          <label for="nome">Nome*</label>
+          <input type="text" id="nome">
+
+          <label for="nome">E-mail</label>
+          <input type="text" id="e-mail">
+
+          <label for="nome">Telefone*</label>
+          <input type="text" id="telefone">
+
+          <label for="mensagem">Digite aqui a sua mensagem*</label>
+          <textarea name="mensagem" id="mensagem"></textarea>
+          
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+
       </div>
 
-      <div class="grid-7">
-        <p style="text-align: right;">(21) 9900-0000 3310-0101 <br>
+      <div class="grid-7 contato-dados">
+        <p>(21) 9900-0000 3310-0101 <br>
           contato@gatodasorte.com.br <br>
           Rua da Graça, 600 - Centro <br>
           Rio de Janeiro - RJ</p>
 
-        <p style="text-align: right;">Nossas redes sociais!</p>
-        <ol>
-          <li class="grid-1"><img src="img/whatsapp-contato.svg" alt=""></li>
-          <li class="grid-1"><img src="img/instagram-contato.svg" alt=""></li>
-          <li class="grid-1"><img src="img/linkedin-contato.svg" alt=""></li>
-        </ol>
+        <p class="sub-redes">Nossas redes sociais!</p>
+        <ul>
+          <li><img src="img/whatsapp-contato.svg" alt=""></li>
+          <li><img src="img/instagram-contato.svg" alt=""></li>
+          <li><img src="img/linkedin-contato.svg" alt=""></li>
+        </ul>
 
       </div>
 
