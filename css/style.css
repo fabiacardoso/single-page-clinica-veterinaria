@@ -1,6 +1,6 @@
 /* GLOBAL */
 :root {
-  --amarelo: #F4D13D;
+  --amarelo: #f4d13d;
   --azul: #3694a7;
   --vermelho: #ff605a;
   --azul-claro: #1ed5da;
@@ -8,7 +8,7 @@
   --branco: #ffffff;
   --preto: #000000;
   --verde: #a8e379;
-  --abobora: #FCA044;
+  --abobora: #fca044;
 }
 
 body {
@@ -25,16 +25,14 @@ body {
   line-height: 30px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-
 }
-
 
 .btn:hover {
-  color: var(--cinza);
-  background: var(--amarelo);
+  color: var(--branco);
+  background: var(--azul);
 }
 
-button{
+button {
   border: none;
 }
 
@@ -112,8 +110,8 @@ h3 {
   background: var(--azul);
 }
 
-.menu-link ul li.active{
-color: var(--vermelho);
+.menu-link ul li.active {
+  color: var(--vermelho);
 }
 
 /* FIM HEADER */
@@ -124,13 +122,13 @@ color: var(--vermelho);
   width: 100%;
   height: 900px;
   padding: 100px 0;
-  background: var(--azul);
+  background: var(--verde);
   margin-top: 91px;
 }
 
 .introducao h1 {
   font-size: 70px;
-  color: var(--branco);
+  color: var(--cinza);
   font-weight: 800;
   line-height: 65px;
   text-align: left;
@@ -140,7 +138,7 @@ color: var(--vermelho);
 
 .introducao p {
   font-size: 25px;
-  color: var(--branco);
+  color: var(--cinza);
   font-weight: regular;
   line-height: 30px;
   text-align: left;
@@ -152,17 +150,14 @@ color: var(--vermelho);
 .introducao img {
   height: 750px;
   padding-top: 30px;
-  
 }
-
-
 
 /* FIM INTRODUÇÃO */
 
 /* SOBRE */
 
 .sobre {
-  height: 750px;
+  height: 900px;
   padding: 150px 0;
 }
 
@@ -190,7 +185,7 @@ color: var(--vermelho);
 /* SERVIÇOS */
 
 .servicos {
-  height: 1550px;
+  height: 1570px;
   padding: 100px 0;
   background-color: var(--amarelo);
   text-align: center;
@@ -237,6 +232,10 @@ color: var(--vermelho);
   margin-bottom: 5rem;
 }
 
+.h3-vet h3 {
+  font-size: 26px;
+}
+
 .profissao {
   font-size: 1.2rem;
   font-weight: light;
@@ -247,13 +246,15 @@ color: var(--vermelho);
   margin-top: 3%;
 }
 
+
+
 /* FIM VETERINÁRIOS */
 
 /* CONTATO */
 .contato {
   height: 900px;
   padding: 100px 0;
-  background: var(--abobora);
+  background: var(--azul-claro);
 }
 
 .contato h2 {
@@ -311,7 +312,7 @@ color: var(--vermelho);
 .form-contato input {
   display: block;
   width: 100%;
-  border: 4px solid var(--amarelo);
+  border: 4px solid var(--azul);
   color: var(--azul);
   padding: 7px 10px;
   outline: none;
@@ -323,7 +324,7 @@ color: var(--vermelho);
   display: block;
   width: 100%;
   height: 120px;
-  border: 4px solid var(--amarelo);
+  border: 4px solid var(--azul);
   color: var(--azul);
   padding: 7px 10px;
   outline: none;
@@ -339,7 +340,7 @@ color: var(--vermelho);
 
 /* FOOTER */
 .footer {
-  height: 600px;
+  height: 750px;
   padding: 80px 0;
   background: var(--cinza);
 }
@@ -387,7 +388,7 @@ color: var(--vermelho);
   font-size: 1rem;
   color: var(--branco);
   font-weight: lighter;
-  margin-top: 150px;
+  margin-top: 120px;
   padding-top: 1rem;
   border-top: var(--branco) solid 2px;
 }
