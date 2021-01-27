@@ -262,6 +262,8 @@ h3 {
 
 .contato-dados p{
 text-align: right;
+line-height: 35px;
+font-weight: 600;
 }
 
 .contato-dados .sub-redes{
