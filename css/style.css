@@ -1,13 +1,14 @@
 /* GLOBAL */
 :root {
-  --amarelo: #ffd864;
+  --amarelo: #F4D13D;
   --azul: #3694a7;
   --vermelho: #ff605a;
   --azul-claro: #1ed5da;
-  --cinza: #313131;
+  --cinza: #252525;
   --branco: #ffffff;
   --preto: #000000;
-  --verde: #A8E379;
+  --verde: #a8e379;
+  --abobora: #FCA044;
 }
 
 body {
@@ -24,11 +25,17 @@ body {
   line-height: 30px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+
 }
+
 
 .btn:hover {
   color: var(--cinza);
   background: var(--amarelo);
+}
+
+button{
+  border: none;
 }
 
 .subtitulo {
@@ -36,7 +43,7 @@ body {
   font-weight: 800;
   text-align: center;
   line-height: 80px;
-  color: var(--preto);
+  color: var(--cinza);
   letter-spacing: 0.03em;
 }
 
@@ -65,7 +72,7 @@ h3 {
   position: fixed;
   top: 0;
   width: 100%;
-  background: var(--amarelo);
+  background: var(--cinza);
   padding: 15px 0;
   z-index: 10;
 }
@@ -81,14 +88,14 @@ h3 {
 }
 
 .header-menu ul li a {
-  color: var(--preto);
+  color: var(--branco);
   font-weight: regular;
   letter-spacing: 0.1em;
   font-size: 20px;
   padding: 10px 0;
 }
 
-.menu-link::after {
+.menu-link:after {
   content: "";
   display: block;
   width: 0;
@@ -103,6 +110,10 @@ h3 {
   transition: width 0.3s;
   margin-top: 10%;
   background: var(--azul);
+}
+
+.menu-link ul li.active{
+color: var(--vermelho);
 }
 
 /* FIM HEADER */
@@ -141,7 +152,10 @@ h3 {
 .introducao img {
   height: 750px;
   padding-top: 30px;
+  
 }
+
+
 
 /* FIM INTRODUÇÃO */
 
@@ -178,7 +192,7 @@ h3 {
 .servicos {
   height: 1550px;
   padding: 100px 0;
-  background-color: var(--azul-claro);
+  background-color: var(--amarelo);
   text-align: center;
 }
 
@@ -228,7 +242,7 @@ h3 {
   font-weight: light;
 }
 
-.redes-vete li{
+.redes-vete li {
   display: inline-block;
   margin-top: 3%;
 }
@@ -237,9 +251,9 @@ h3 {
 
 /* CONTATO */
 .contato {
-  height: 950px;
+  height: 900px;
   padding: 100px 0;
-  background: var(--azul-claro);
+  background: var(--abobora);
 }
 
 .contato h2 {
@@ -256,73 +270,70 @@ h3 {
   margin-top: 1rem;
 }
 
-.contato-dados{
+.contato-dados {
   text-align: right;
-  }
-
-.contato-dados p{
-text-align: right;
-line-height: 35px;
-font-weight: 600;
 }
 
-.contato-dados .sub-redes{
+.contato-dados p {
+  text-align: right;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.contato-dados .sub-redes {
   text-align: right;
   margin-bottom: 0;
   padding-bottom: 3%;
   font-weight: regular;
-  color: var(--branco);
+  color: var(--cinza);
   font-size: 24px;
-
 }
 
-.contato-dados ul li{
+.contato-dados ul li {
   padding: 0px 3px;
   display: inline-block;
-
 }
 
-.form-contato label{
+.form-contato label {
   display: block;
   font-size: 1.1rem;
   line-height: 25px;
   margin-bottom: 4px;
 }
 
-.form-contato textarea{
+.form-contato textarea {
   display: block;
   font-size: 1.1rem;
   color: var(--preto);
   line-height: 25px;
 }
 
-.form-contato input{
-display: block;
-width: 100%;
-border: 4px solid var(--azul);
-color: var(--vermelho);
-padding: 7px 10px;
-outline: none;
-font-size: 16px;
-margin-bottom: 15px;
-}
-
-.form-contato textarea{
+.form-contato input {
   display: block;
   width: 100%;
-  height: 120px;
-  border: 4px solid var(--azul);
-  color: var(--vermelho);
+  border: 4px solid var(--amarelo);
+  color: var(--azul);
   padding: 7px 10px;
   outline: none;
   font-size: 16px;
   margin-bottom: 15px;
-  }
+}
 
-  .form-contato button{
-    padding: 7px 40px;
-  }
+.form-contato textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid var(--amarelo);
+  color: var(--azul);
+  padding: 7px 10px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
 
+.form-contato button {
+  padding: 7px 40px;
+}
 
 /* FIM CONTATO */
 
@@ -342,7 +353,7 @@ margin-bottom: 15px;
   line-height: 2rem;
 }
 
-.menu-footer ul li a{
+.menu-footer ul li a {
   font-size: 20px;
   color: var(--branco);
   text-align: left;
@@ -360,18 +371,16 @@ margin-bottom: 15px;
   margin-bottom: 1rem;
 }
 
-.footer-redes{
+.footer-redes {
   margin: 0 100px;
-  text-align: right;
+  text-align: center;
 }
 
 .footer-redes ul li {
   padding: 0px 3px;
   display: inline-block;
   margin-top: 5%;
-
 }
-
 
 .copyright {
   text-align: center;
