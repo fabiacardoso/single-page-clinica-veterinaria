@@ -23,8 +23,6 @@ https://fabiacardoso.github.io/single-page-clinica-veterinaria/
 :heavy_check_mark: CSS3
 :heavy_check_mark: JAVASCRIPT
 
-
-
 ## **O Site**
 
 <img src="/img/o-site.png">
