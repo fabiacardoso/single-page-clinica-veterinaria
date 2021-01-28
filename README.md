@@ -10,24 +10,7 @@ O site foi desenvolvido com HTML5, CSS3 e JavaScript utilizando o VS Code.
 
 Foram aplicados conceitos de UI e UX durante a criação do site. 
 
-<img src="/img/tela-note.PNG">
-
-
-#
-
-## **A Logo**
-
-<img src="/img/logo-gato-da-sorte.svg">
-
 # 
-
-## **Paleta de Cores, Familía Tipografica e Ferramentas Utilizadas**
-
-<img src="/img/itens-da-marca.PNG">
-
-# 
-
- 
 
 ## **O Site**
 
