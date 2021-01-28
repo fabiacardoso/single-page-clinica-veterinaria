@@ -121,7 +121,7 @@ h3 {
 .introducao {
   width: 100%;
   height: 900px;
-  padding: 100px 0;
+  padding: 60px 0;
   background: var(--verde);
   margin-top: 91px;
 }
@@ -185,7 +185,7 @@ h3 {
 /* SERVIÇOS */
 
 .servicos {
-  height: 1570px;
+  height: 1450px;
   padding: 100px 0;
   background-color: var(--amarelo);
   text-align: center;
