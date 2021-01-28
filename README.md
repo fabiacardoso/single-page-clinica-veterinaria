@@ -10,6 +10,10 @@ O site foi desenvolvido com HTML5, CSS3 e JavaScript utilizando o VS Code.
 
 Foram aplicados conceitos de UI e UX durante a criação do site. 
 
+Você ter uma prévia do site no link abaixo:
+
+https://fabiacardoso.github.io/single-page-clinica-veterinaria/
+
 # 
 
 ## **O Site**
